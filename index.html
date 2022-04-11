@@ -1,120 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Hegymegi-Kiss Ákos oldala</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
     <style>
-    body 
-    {
-        margin: 0;
-        font-family: "Lato", sans-serif;
-    }
-    
-    .sidebar 
-    {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: gray;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
-    }
-    
-    .sidebar a 
-    {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-    }
-    
-    .sidebar a.active 
-    {
-        background-color: goldenrod;
-        color: white;
-    }
-    
-    .sidebar a:hover:not(.active) 
-    {
-        background-color: #555;
-        color: white;
-    }
-    
-    div.content 
-    {
-        margin-left: 200px;
-        padding: 1px 16px;
-        height: 1000px;
-    }
-    
-    @media screen and (max-width: 700px) 
-    {
-        .sidebar 
-        {
-        width: 100%;
-        height: auto;
-        position: relative;
+        body {
+            background-color: yellow;
+            font-family: 'The Nautigal', cursive;
+            font-size: 20px;
         }
-        .sidebar a {float: left;}
-        div.content {margin-left: 0;}
-    }
-    
-    @media screen and (max-width: 400px) 
-    {
-        .sidebar a 
-        {
-        text-align: center;
-        float: none;
+
+
+        .sidebar {
+
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: gray;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
         }
-    }
- 
-  table, tr, td {
-    border: 1px solid black;
-   background-color: aqua;
-  }</style>
+
+        .sidebar a {
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .sidebar a.active {
+            background-color: goldenrod;
+            color: white;
+        }
+
+        .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                float: left;
+            }
+
+            div.content {
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+    </style>
+</head>
+
 <body style="background-color:orange;">
+
     <div class="sidebar">
 
-    <a href="https://hegymegi-akos.github.io/kollazs_jo/" class="active"> HOME</a>
+        <a href="https://hegymegi-akos.github.io/kollazs_jo/" class="active"> HOME</a>
 
 
-    <a href="https://hegymegi-akos.github.io/kollazs_jo/keplink.html"class="active"class="active"class="active">keplink</a>
+        <a href="https://hegymegi-akos.github.io/kollazs_jo/keplink.html">keplink</a>
 
-  <a href="https://hegymegi-akos.github.io/orarend.html/"class="active"class="active">órarend</a>
+        <a href="https://hegymegi-akos.github.io/orarend.html/">órarend</a>
 
-    <a href="https://hegymegi-akos.github.io/kollazs_jo/listak.html"class="active">Lista</a>
- <a href="https://hegymegi-akos.github.io/evszakok.html/">Évszakok</a>
-  <a href="https://hegymegi-akos.github.io/ceges.html/">Pizza lap</a>
+        <a href="https://hegymegi-akos.github.io/kollazs_jo/listak.html">Lista</a>
+        <a href="https://hegymegi-akos.github.io/evszakok.html/">Évszakok</a>
+        <a href="https://hegymegi-akos.github.io/ceges.html/">Pizza lap</a>
          <a href="https://hegymegi-akos.github.io/xd.html/">Számitógépek</a>
-    
-</div>
- 
-    <table>
-        <tr>
-            <td>1 kép</td>
-            <td>2 kép</td>
-            <td>3 kép</td>
-            <td>4 kép</td>
-        </tr>
-        <tr>
-            <td><img src="https://www.skynet-computer.hu/Images/Products/nbase242.jpg" width="222" height="222">
-            </td>
-            <td><img src="https://s13emagst.akamaized.net/products/37242/37241180/images/res_fb6b4dc48ba20b75ab6a0ef79f6f32f3.jpg?width=450&height=450&hash=4CAAA6B410D98FD71BD6B9C039C4D9DB"  width="222" height="222">
-            </td>
-            <td><img src="https://s13emagst.akamaized.net/products/25623/25622801/images/res_ffaef81b8df6fd226add1ef6b2735d86.jpg?width=450&height=450&hash=8792F2FA7AECE000512F082F1D39E7D1"  width="222" height="222">
-            </td>
-            <td><img src="https://s13emagst.akamaized.net/products/37242/37241180/images/res_fb6b4dc48ba20b75ab6a0ef79f6f32f3.jpg?width=450&height=450&hash=4CAAA6B410D98FD71BD6B9C039C4D9DB" width="222" height="222">
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>1 kép</td>
+                <td>2 kép</td>
+                <td>3 kép</td>
+                <td>4 kép</td>
+            </tr>
+            <tr>
+                <td><img src="https://www.skynet-computer.hu/Images/Products/nbase242.jpg" width="222" height="222">
                 </td>
-        </tr>
-        <tr>
-            <td> 200000ft </td>
-            <td>20000000ft</td>
-            <td>2000000000dl </td>
-            <td>egy bojler az ára</td>
-        </tr>
-    </table>
+                <td><img src="https://s13emagst.akamaized.net/products/37242/37241180/images/res_fb6b4dc48ba20b75ab6a0ef79f6f32f3.jpg?width=450&height=450&hash=4CAAA6B410D98FD71BD6B9C039C4D9DB"  width="222" height="222">
+                </td>
+                <td><img src="https://s13emagst.akamaized.net/products/25623/25622801/images/res_ffaef81b8df6fd226add1ef6b2735d86.jpg?width=450&height=450&hash=8792F2FA7AECE000512F082F1D39E7D1"  width="222" height="222">
+                </td>
+                <td><img src="https://s13emagst.akamaized.net/products/37242/37241180/images/res_fb6b4dc48ba20b75ab6a0ef79f6f32f3.jpg?width=450&height=450&hash=4CAAA6B410D98FD71BD6B9C039C4D9DB" width="222" height="222">
+                    </td>
+            </tr>
+            <tr>
+                <td> 200000ft </td>
+                <td>20000000ft</td>
+                <td>2000000000dl </td>
+                <td>egy bojler az ára</td>
+            </tr>
+        </table>
+
+    </div>
+
 </body>
+
 </html>
